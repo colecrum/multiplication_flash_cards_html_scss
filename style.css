@@ -73,6 +73,15 @@ h2 {
   margin-bottom: 100px;
 }
 
+@media screen and (max-width: 600px) {
+  #mobile-sub {
+    display: block;
+  }
+  #title-sub {
+    display: none;
+  }
+}
+
 
 /* CARDS ---------------------------------------------*/
 /* Card animation credit - smashtheshell - https://codepen.io/smashtheshell/pen/XmmzVq */
@@ -186,4 +195,8 @@ h2 {
 #git-logo {
   height: 75px;
   width: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-links {width: 100%;}
 }
