@@ -82,6 +82,14 @@ h2 {
   }
 }
 
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  #mobile-sub {
+    display: block;
+  }
+  #title-sub {
+    display: none;
+  }
+}
 
 /* CARDS ---------------------------------------------*/
 /* Card animation credit - smashtheshell - https://codepen.io/smashtheshell/pen/XmmzVq */
@@ -157,9 +165,6 @@ h2 {
   font-size: 60px;
 }
 
-
-
-
 /* SIGN-OFF --------------------------------------------*/
 
 /*designed by & contact*/
@@ -198,5 +203,9 @@ h2 {
 }
 
 @media only screen and (max-width: 600px) {
+  .contact-links {width: 100%;}
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
   .contact-links {width: 100%;}
 }
